@@ -19,7 +19,6 @@ from cik_benchmark.baselines.moirai import MoiraiForecaster
 from cik_benchmark.baselines.llm_processes import LLMPForecaster
 from cik_benchmark.baselines.timellm import TimeLLMForecaster
 from cik_benchmark.baselines.unitime import UniTimeForecaster
-from cik_benchmark.baselines.timegen import timegen1
 from cik_benchmark.baselines.naive import oracle_baseline, random_baseline
 from cik_benchmark.baselines.statsmodels import (
     ExponentialSmoothingForecaster,
